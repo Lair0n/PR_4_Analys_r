@@ -60,6 +60,5 @@ jobs:
             build-strict.log
             test-strict.log
 
-      # ДОБАВЬТЕ ЭТОТ ШАГ
       - name: Pack
         run: dotnet pack Todo.Core/Todo.Core.csproj -c Release -o ./artifacts
